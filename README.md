@@ -4,9 +4,9 @@ A web-based text summarization application specifically designed for **Tamil lan
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Flask](https://img.shields.io/badge/Flask-2.0.1-green.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-## 🌟 Features
+
+##  Features
 
 - **Multiple Summarization Methods:**
   - **TextRank** - Graph-based extractive summarization using PageRank algorithm
@@ -23,7 +23,7 @@ A web-based text summarization application specifically designed for **Tamil lan
   - Responsive design for mobile and desktop
   - Customizable number of output sentences
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 | Technology | Purpose |
 |------------|---------|
@@ -48,7 +48,7 @@ text_summarizer/
 └── README.md
 ```
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -82,7 +82,7 @@ text_summarizer/
 4. **Download NLTK resources (automatic on first run):**
    The application automatically downloads required NLTK resources (`punkt`, `stopwords`) on first run.
 
-## ▶️ Usage
+##  Usage
 
 1. **Start the application:**
    ```bash
@@ -100,7 +100,7 @@ text_summarizer/
    - Choose your preferred summarization method
    - Click "சுருக்கவும்" (Summarize) to generate the summary
 
-## 📖 Summarization Methods Explained
+##  Summarization Methods Explained
 
 ### 1. TextRank
 Uses a graph-based ranking algorithm similar to Google's PageRank. Sentences are ranked based on their similarity to other sentences in the text. The algorithm combines:
@@ -113,7 +113,7 @@ Calculates word frequencies across the document and scores sentences based on th
 ### 3. Abstractive (mT5)
 Uses the `csebuetnlp/mT5_multilingual_XLSum` pre-trained model from Hugging Face. This method generates new sentences that capture the meaning of the original text, rather than extracting existing sentences.
 
-## ⚙️ Configuration
+##  Configuration
 
 You can modify the following parameters in `summarizer.py`:
 
@@ -124,7 +124,7 @@ You can modify the following parameters in `summarizer.py`:
 | `min_length` | 30 | Minimum length for abstractive summary |
 | `num_beams` | 4 | Beam search width for mT5 |
 
-## 📝 API Reference
+##  API Reference
 
 ### Summarization Functions
 
@@ -139,7 +139,7 @@ frequency_summary(text, num_sentences=3)
 abstractive_summary(text, max_length=100)
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -149,22 +149,16 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - [Hugging Face](https://huggingface.co/) for the mT5 multilingual model
 - [CSEBUETNLP](https://github.com/csebuetnlp) for the XLSum model
-- Tamil NLP community for linguistic resources
 
-## 📧 Contact
 
-For questions or feedback, please open an issue in the repository.
+
 
 ---
 
-<p align="center">
-  Made with ❤️ for Tamil Language Processing
-</p>
+

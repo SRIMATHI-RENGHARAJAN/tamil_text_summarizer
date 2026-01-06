@@ -1,0 +1,6 @@
+Flask==2.0.1
+nltk==3.6.3
+torch==1.10.0
+transformers==4.16.0
+networkx==2.6.3
+numpy==1.21.2
